@@ -9,17 +9,18 @@ body {
 }
 
 #section-bg {
-    background-color: #E6C983;
+    background-color: #343A40;
     height: auto;
 }
 
 .page-footer {
     background-color: #343A40;
-    height: 100px;
+    height: 50px;
     width: 100%;
 
 
 }
+
 
 .section-bg-img {
     height: 100vh;
@@ -50,10 +51,42 @@ body {
     height: 46px;
 }
 
+.social-media {
+    display: inline-block;
+    font-size: 25pt;
+    color: #FBFBFB;
+    
+    
+    
+}
+
+.social-media-center {
+    position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 @media only screen and (min-width: 425px) {
     .brand-logo {
         width: 250px;
         height: 86px;
     }
+.social-media {
+    display: inline-block;
+    font-size: 40pt;
+    color: #FBFBFB;
+    
+    
+}
+
+.page-footer {
+    background-color: #343A40;
+    height: 100px;
+    width: 100%;
+
+
+}
 
 }
