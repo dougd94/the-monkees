@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+#section-bg {
+    background-color: #E6C983;
+    height: auto;
+}
+
+.page-footer {
+    background-color: #343A40;
+    height: 100px;
+    width: 100%;
+
+
+}
+
+.section-bg-img {
+    height: 100vh;
+
+    background: url('../images/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-attachment: scroll;
+}
+
+
+.home-text {
+    color: #FBFBFB;
+    z-index: 1;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.brand-logo {
+    width: 117px;
+    height: 46px;
+}
+
+@media only screen and (min-width: 425px) {
+    .brand-logo {
+        width: 250px;
+        height: 86px;
+    }
+
+}
