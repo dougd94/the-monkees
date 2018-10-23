@@ -77,9 +77,11 @@ body {
     display: inline-block;
     font-size: 40pt;
     color: #FBFBFB;
-    
+    padding-right: 15px;
+    padding-left: 15px;
     
 }
+
 
 .page-footer {
     background-color: #343A40;
@@ -88,5 +90,12 @@ body {
 
 
 }
-
+.social-media:hover {
+    display: inline-block;
+    font-size: 40pt;
+    color: #FF0101;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
 }
