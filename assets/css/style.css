@@ -55,7 +55,7 @@ body {
     display: inline-block;
     font-size: 25pt;
     color: #FBFBFB;
-    
+  
     
     
 }
@@ -67,6 +67,12 @@ body {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
+
+.text-xs-center {
+    text-align: center;
+}
+
 
 @media only screen and (min-width: 425px) {
     .brand-logo {
@@ -83,6 +89,10 @@ body {
 }
 
 
+.navbar a:hover { 
+    color: #FF0101 !important; 
+    
+}
 .page-footer {
     background-color: #343A40;
     height: 100px;
@@ -91,11 +101,6 @@ body {
 
 }
 .social-media:hover {
-    display: inline-block;
-    font-size: 40pt;
     color: #FF0101;
-    padding-right: 15px;
-    padding-left: 15px;
-    
 }
 }
