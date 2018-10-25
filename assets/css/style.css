@@ -37,7 +37,20 @@ body {
     background-attachment: scroll;
 }
 
+.section-bg-img-other {
+    height: 100vh;
 
+    background: url('../images/bg.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-attachment: scroll;
+}
 .home-text {
     color: #FBFBFB;
     z-index: 1;
@@ -55,7 +68,7 @@ body {
     display: inline-block;
     font-size: 25pt;
     color: #FBFBFB;
-  
+  transition:color 0.5s ease;
     
     
 }
@@ -73,7 +86,6 @@ body {
     text-align: center;
 }
 
-
 @media only screen and (min-width: 425px) {
     .brand-logo {
         width: 250px;
@@ -89,9 +101,14 @@ body {
 }
 
 
+
 .navbar a:hover { 
     color: #FF0101 !important; 
     
+}
+
+.navbar a {
+    transition:color 0.5s ease;
 }
 .page-footer {
     background-color: #343A40;
@@ -102,5 +119,7 @@ body {
 }
 .social-media:hover {
     color: #FF0101;
+    
+    
 }
 }
