@@ -15,36 +15,42 @@
 </head>
 
 <body id="section-bg">
-    <header class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a href="index.html" class="brand"><img src="assets/images/Monkees_redtrans.png" class="brand-logo"/></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div  class="container-fluid">
+      <a href="index.html" class="brand"><img src="assets/images/Monkees_redtrans.png" class="brand-logo"/></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-hover" href="music.html">Music</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="theband.html">The Band</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="booking.html">Bookings</a>
-                    </li>
-        </nav>
-        </div>
-    </header>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-hover" href="music.html">Music</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="theband.html">The Band</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="booking.html">Bookings</a>
+          </li>
+          </div>
+    </nav>
+    </div>
+  </header>
 
-    <section class="section-bg-img-other container-fluid">
-        <div class="row">
-            <form>
+    <section class="container-fluid section-bg-img-other ">
+        <div class="form-container">
+            <form class="form-center">
                 <div class="form-group">
                     <label for="name">Name:</label>
                     <input type="text" class="form-control" id="name" placeholder="Enter Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="tel">Phone:</label>
+                    <input type="text" class="form-control" id="tel" value="+353-111-1111"  required>
                 </div>
                 <div class="form-group">
                     <label for="emailaddress">Email address:</label>
@@ -58,15 +64,18 @@
       <option>Corporate</option>
       <option>Other</option>
     </select>
-
+                </div>
+                <div class="form-group">
+                    <label for="number">Ammount of Guests:</label>
+                    <input type="number" class="form-control" id="number" placeholder="Optional">
                 </div>
 
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1">Enter your query details here:</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Optional"></textarea>
                 </div>
                 <div class="text-center">
-                <button type="submit" class="btn btn-success">Submit</button>
+                    <button type="submit" class="btn btn-success">Submit</button>
                 </div>
             </form>
         </div>
@@ -74,24 +83,26 @@
 
 
 
-    <footer class="page-footer container-fluid">
-        <p>
+  <footer class="page-footer container-fluid">
+    <div class="row footer-items align-items-center">
+      <div class="col-6 col-md-4 mobile-hide-footer"><img src="assets/images/Monkees_redtrans.png" class="footer-logo" />
+      <p class="footer-text mobile-hide-footer">The Monkees, starring Davy Jones, Micky Dolenz, Michael Nesmith, and Peter Tork premiered on September 12, 1966,
+      and audiences adored the humorous antics of the band.</p>
+      </div>
+      <div class="col-6 col-md-4 text-center">© The Monkees 2018 & Rhino Entertainment Company</div>
+      <div class="social-media-center col-6 col-md-4 text-right">
+        <a href="https://www.facebook.com/TheMonkees/" target=_ blank><i class="fab fa-facebook-square social-media" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/themonkees?lang=en" target=_ blank><i class="fab fa-twitter-square social-media" aria-hidden="true"></i></a>
+        <a href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA" target=_ blank><i class="fab fa-youtube-square social-media" aria-hidden="true"></i></a>
+      </div>
 
-            <div class="social-media-center text-xs-center  text-md-right">
-                <a href="https://www.facebook.com/TheMonkees/" target=_ blank><i class="fab fa-facebook-square social-media" aria-hidden="true"></i></a>
-                <a href="https://twitter.com/themonkees?lang=en" target=_ blank><i class="fab fa-twitter-square social-media" aria-hidden="true"></i></a>
-                <a href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA" target=_ blank><i class="fab fa-youtube-square social-media" aria-hidden="true"></i></a>
-            </div>
-        </p>
-
-
-        </div>
-
-    </footer>
-
-</body>
+    </div>
+    </div>
+  </footer>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
 
 </html>
