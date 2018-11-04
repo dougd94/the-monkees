@@ -254,7 +254,8 @@ font-size: 20px;
 .section-bg-img-other {
     
 
-    background: url('../images/bg.png') no-repeat center center fixed;
+    /*background: url('../images/bg.png') no-repeat center center fixed;*/
+    background-color: #5E646B;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -302,7 +303,7 @@ font-size: 20px;
     
   border: 1px solid red;
 }
-}
+
 /* booking  */
 
 .submit-booking {
