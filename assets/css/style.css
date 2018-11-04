@@ -3,6 +3,7 @@ body {
     position: relative;
     min-height: 100%;
     min-height: 100vh;
+    background-color: #5e646b;
 }
 
 a,
@@ -33,7 +34,7 @@ a:hover {
     background-color: #343A40;
     height: auto;
     width: 100%;
-
+margin-top: 10px;
     right: 0;
     bottom: 0;
     left: 0;
@@ -153,6 +154,43 @@ font-size: 20px;
     color: white;
 
 }
+.section-headings {
+    background-color :#5E646B;
+    color: #ffffff;
+    
+}
+
+.section-text {
+    color: #fff;
+}
+
+.event-2, .event-1 {
+    padding-bottom: 20px;
+    padding-top :10px;
+}
+
+.event-1 {
+    background-image: url(/assets/images/christmass.jpg);
+    width:100%;
+    height: auto;
+}
+.event-2 {
+    background-image: url(/assets/images/scarecrow.jpg);
+    width:100%;
+    height:auto;
+}
+
+.event-3 {
+    background-image: url(/assets/images/scarecrow.jpg);
+    width:100%;
+    height:auto; 
+}
+
+.index-section-bg {
+    background-image: url(/assets/images/bg.png);
+    
+}
+
 
 @media only screen and (min-width: 758px) {
     .home-text {
