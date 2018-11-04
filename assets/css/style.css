@@ -164,27 +164,59 @@ font-size: 20px;
     color: #fff;
 }
 
-.event-2, .event-1 {
+.event-2, .event-1, .event-3 {
     padding-bottom: 20px;
     padding-top :10px;
 }
 
 .event-1 {
-    background-image: url(/assets/images/christmass.jpg);
-    width:100%;
+    background: url(/assets/images/christmass.jpg) no-repeat center center fixed;
     height: auto;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    align-items: center;
+   
+    position: relative;
+    background-attachment: scroll;
+    
 }
 .event-2 {
-    background-image: url(/assets/images/scarecrow.jpg);
-    width:100%;
+  
+    background: url(/assets/images/scarecrow.jpg) no-repeat center center fixed;
+    width:auto;
     height:auto;
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    align-items: center;
+   
+    position: relative;
+    background-attachment: scroll;
 }
 
 .event-3 {
-    background-image: url(/assets/images/scarecrow.jpg);
-    width:100%;
-    height:auto; 
+    
+    background: url(/assets/images/scarecrow.jpg) no-repeat center center fixed;
+    width:auto;
+    height:auto;
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    align-items: center;
+   
+    position: relative;
+    background-attachment: scroll;
 }
+
+
 
 .index-section-bg {
     background-image: url(/assets/images/bg.png);
@@ -235,7 +267,10 @@ font-size: 20px;
 }
 
 /* music */
-
+.artwork {
+    width:150px;
+    height: auto;
+}
 .music-albums {
     padding-bottom: 20px;
 }
@@ -249,6 +284,25 @@ font-size: 20px;
 
 /* the band */
 
+.thebandimages {
+    width: 100%;
+    height: 50%;
+}
+.theband-text {
+    color: white;
+}
+
+.center-img {
+    transform: translateX(50%);
+    -webkit-transform: translateX(50%);
+    width: 50%;
+}
+
+.red {
+    
+  border: 1px solid red;
+}
+}
 /* booking  */
 
 .submit-booking {
