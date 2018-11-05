@@ -169,6 +169,7 @@ font-size: 20px;
 .heading-nopad {
     padding-right: 0px !important;
     padding-left: 0px !important;
+    overflow: hidden;
 }
 .section-text {
     color: #fff;
@@ -182,7 +183,7 @@ font-size: 20px;
 .event-1 {
     background: url(/assets/images/christmass.jpg) no-repeat center center fixed;
     height: auto;
-    
+    width: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -197,7 +198,7 @@ font-size: 20px;
 .event-2 {
   
     background: url(/assets/images/scarecrow.jpg) no-repeat center center fixed;
-    width:auto;
+    width: 100%;
     height:auto;
    -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -213,7 +214,7 @@ font-size: 20px;
 .event-3 {
     
     background: url(/assets/images/scarecrow.jpg) no-repeat center center fixed;
-    width:auto;
+    width: 100%;
     height:auto;
    -webkit-background-size: cover;
     -moz-background-size: cover;
