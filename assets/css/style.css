@@ -156,11 +156,20 @@ font-size: 20px;
 
 }
 .section-headings {
-    background-color :#5E646B;
+    background-color :#ff5a36;
     color: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 5px;
     
 }
-
+ .video-latest {
+     padding-top: 5px;
+ }
+ 
+.heading-nopad {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
 .section-text {
     color: #fff;
 }
