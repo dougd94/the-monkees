@@ -60,65 +60,6 @@ margin-top: 10px;
 
 
 
-/* desktop  */
-
-@media only screen and (min-width: 768px) {
-    .brand-logo {
-        width: 250px;
-        height: 86px;
-    }
-
-    .mobile-hide-footer {
-        display: inline-block;
-    }
-    .social-media {
-        display: inline-block;
-        font-size: 30pt;
-        color: #FBFBFB;
-        padding-right: 15px;
-        padding-left: 15px;
-        letter-spacing: 5px;
-    }
-
-    .footer-logo {
-        width: 117px;
-        height: 46px;
-
-
-    }
-
-    .footer-items {
-        padding-top: 20px;
-
-        font-size: 12px;
-    }
-
-    .navbar a:hover {
-        color: #FF0101 !important;
-
-    }
-
-    .navbar a {
-        transition: color 0.5s ease;
-    }
-
-    .social-media:hover {
-        color: #FF0101;
-
-
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    .social-media {
-        display: inline-block;
-        font-size: 40pt;
-        color: #FBFBFB;
-        padding-right: 15px;
-        padding-left: 15px;
-
-    }
-}
 
 /* index  */
 
@@ -136,8 +77,7 @@ margin-top: 10px;
 
 
 .home-text {
-font-size: 20px;
-
+    font-size: 20px;    
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -148,12 +88,13 @@ font-size: 20px;
     -webkit-box-shadow: 10px 10px 53px 0px rgba(0, 0, 0, 0.41);
     -moz-box-shadow: 10px 10px 53px 0px rgba(0, 0, 0, 0.41);
     box-shadow: 10px 10px 53px 0px rgba(0, 0, 0, 0.41);
+    bottom: 10px;
+    position: relative;
 }
 
 .home-items {
     background-color: #5e646b;
     color: white;
-
 }
 .section-headings {
     background-color :#ff5a36;
@@ -170,83 +111,34 @@ font-size: 20px;
     padding-right: 0px !important;
     padding-left: 0px !important;
     overflow: hidden;
+    background-color: red;
 }
 .section-text {
     color: #fff;
 }
 
-.event-2, .event-1, .event-3 {
-    padding-bottom: 20px;
-    padding-top :10px;
-}
-
-.event-1 {
-    background: url(/assets/images/christmass.jpg) no-repeat center center fixed;
-    height: auto;
+.article-images {
     width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    align-items: center;
-   
-    position: relative;
-    background-attachment: scroll;
-    
-}
-.event-2 {
-  
-    background: url(/assets/images/scarecrow.jpg) no-repeat center center fixed;
-    width: 100%;
-    height:auto;
-   -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    align-items: center;
-   
-    position: relative;
-    background-attachment: scroll;
-}
 
-.event-3 {
-    
-    background: url(/assets/images/scarecrow.jpg) no-repeat center center fixed;
-    width: 100%;
-    height:auto;
-   -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    align-items: center;
-   
-    position: relative;
-    background-attachment: scroll;
 }
-
-
 
 .index-section-bg {
     background-image: url(/assets/images/bg.png);
     
 }
 
-
-@media only screen and (min-width: 758px) {
-    .home-text {
-        font-size: 40px;
-    }
+.index-video {
+    width: 100%;
+    height: auto;
 }
+
+
 
 /* bg  */
 
 .section-bg-img {
-    height: 70vh;
-
-    background: url('../images/bg.jpg') no-repeat center center fixed;
+    width: 100%;
+    background: url('/assets/images/bgnew.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -265,7 +157,7 @@ font-size: 20px;
 .section-bg-img-other {
     
 
-    /*background: url('../images/bg.png') no-repeat center center fixed;*/
+    /*background: url('/assets/images/bgnew.jpg') no-repeat center center fixed;*/
     background-color: #5E646B;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -355,17 +247,6 @@ font-size: 20px;
 }
 
 
-@media (min-width: 768px) {
-    .form-container {
-
-        margin: 30px 0;
-        width: 70%;
-        -webkit-box-shadow: 10px 10px 53px 0px rgba(0, 0, 0, 0.41);
-        -moz-box-shadow: 10px 10px 53px 0px rgba(0, 0, 0, 0.41);
-        box-shadow: 10px 10px 53px 0px rgba(0, 0, 0, 0.41);
-
-    }
-}
 
 /*@media (min-width: 1024px) {
     .form-container {
@@ -377,4 +258,107 @@ font-size: 20px;
         box-shadow: 10px 10px 53px 0px rgba(0, 0, 0, 0.41);
 
     }
+}
+
+
+/*media queries*/
+
+@media only screen and (min-width: 1024px) {
+    .social-media {
+        display: inline-block;
+        font-size: 40pt;
+        color: #FBFBFB;
+        padding-right: 15px;
+        padding-left: 15px;
+
+    }
+}
+
+
+
+@media only screen and (min-width: 768px) {
+      .form-container {
+
+        margin: 30px 0;
+        width: 70%;
+        -webkit-box-shadow: 10px 10px 53px 0px rgba(0, 0, 0, 0.41);
+        -moz-box-shadow: 10px 10px 53px 0px rgba(0, 0, 0, 0.41);
+        box-shadow: 10px 10px 53px 0px rgba(0, 0, 0, 0.41);
+
+    }
+    .home-text {
+        font-size: 40px;
+    }
+    
+    .index-video {
+    width: 70%;
+    height: auto;
+    transform: translateX(20%);
+}
+    .brand-logo {
+        width: 250px;
+        height: 86px;
+    }
+
+    .mobile-hide-footer {
+        display: inline-block;
+    }
+    .social-media {
+        display: inline-block;
+        font-size: 30pt;
+        color: #FBFBFB;
+        padding-right: 15px;
+        padding-left: 15px;
+        letter-spacing: 5px;
+    }
+
+    .footer-logo {
+        width: 117px;
+        height: 46px;
+
+
+    }
+
+    .footer-items {
+        padding-top: 20px;
+
+        font-size: 12px;
+    }
+
+    .navbar a:hover {
+        color: #FF0101 !important;
+
+    }
+
+    .navbar a {
+        transition: color 0.5s ease;
+    }
+
+    .social-media:hover {
+        color: #FF0101;
+
+
+    }
+    .article-images {
+    width: 50%;
+     position: relative;
+   left: 25%;
+
+}
+
+.section-bg-img {
+    height: 600px;
+
+    background: url('/assets/images/bgnew.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-attachment: scroll;
+}
+
 }
