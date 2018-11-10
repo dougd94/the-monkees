@@ -252,8 +252,8 @@ a:hover {
 }
 
 .form-center {
-    width: 50%;
-    margin: 30px auto;
+    width: 90%;
+    margin: 10px auto;
 
 }
 
@@ -274,20 +274,6 @@ a:hover {
 
 /*media queries*/
 
-@media only screen and (min-width: 1024px) {
-    .social-media {
-        display: inline-block;
-        font-size: 40pt;
-        color: #FBFBFB;
-        padding-right: 15px;
-        padding-left: 15px;
-
-    }
-    
-    .page-footer {
-    height: 136px;
-}
-}
 
 
 
@@ -380,4 +366,26 @@ a:hover {
     height: 175px;
 }
 
+.form-center {
+    width: 50%;
+    margin: 30px auto;
+
+}
+
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .social-media {
+        display: inline-block;
+        font-size: 40pt;
+        color: #FBFBFB;
+        padding-right: 15px;
+        padding-left: 15px;
+
+    }
+    
+    .page-footer {
+    height: 130px;
+}
 }
