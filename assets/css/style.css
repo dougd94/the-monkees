@@ -56,7 +56,9 @@ a:hover {
 }
 
 
-
+   .footer-center {
+        transform: translateY(50%);
+    }
 
 
 
@@ -77,7 +79,7 @@ a:hover {
 
 
 .home-text {
-    font-size: 20px;    
+    font-size: 10px;    
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -88,7 +90,7 @@ a:hover {
     -webkit-box-shadow: 10px 10px 53px 0px rgba(0, 0, 0, 0.41);
     -moz-box-shadow: 10px 10px 53px 0px rgba(0, 0, 0, 0.41);
     box-shadow: 10px 10px 53px 0px rgba(0, 0, 0, 0.41);
-    bottom: 10px;
+    /*top: 90px;*/
     position: relative;
 }
 
@@ -119,7 +121,7 @@ a:hover {
 
 .article-images {
     width: 100%;
-
+    
 }
 
 .index-section-bg {
@@ -132,7 +134,11 @@ a:hover {
     height: auto;
 }
 
-
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%; 
+}
 
 /* bg  */
 
@@ -292,9 +298,9 @@ a:hover {
     }
     
     .index-video {
-    width: 70%;
+    width: 90%;
     height: auto;
-    transform: translateX(20%);
+    transform: translateX(5%);
 }
     .brand-logo {
         width: 250px;
@@ -304,6 +310,9 @@ a:hover {
     .mobile-hide-footer {
         display: inline-block;
     }
+    
+ 
+    
     .social-media {
         display: inline-block;
         font-size: 30pt;
@@ -341,10 +350,14 @@ a:hover {
 
     }
     .article-images {
-    width: 50%;
-     position: relative;
-   left: 25%;
+    width: 100%;
+    /*position: relative;
+   left: 25%;*/
 
+}
+
+.padding-top-small {
+    padding-top: 10px;
 }
 
 .section-bg-img {
@@ -372,6 +385,10 @@ a:hover {
 
 }
 
+.home-text-container {
+    top: 160px;
+}
+
 }
 
 
@@ -388,4 +405,17 @@ a:hover {
     .page-footer {
     height: 130px;
 }
+
+  .index-video {
+    width: 70%;
+    height: auto;
+    transform: translateX(22.1%);
+}
+
+
+.padding-top-small {
+    padding-top: 0px;
+}
+
+
 }
