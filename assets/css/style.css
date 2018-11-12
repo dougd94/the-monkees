@@ -73,6 +73,7 @@ a:hover {
 #section-bg {
     /* background-color: #343A40; */
     height: auto;
+    
 }
 
 
@@ -144,7 +145,7 @@ a:hover {
 
 .section-bg-img {
     width: 100%;
-    background: url('/assets/images/bgnew.jpg') no-repeat center center fixed;
+    background: url('/assets/images/bgnew.png') no-repeat top center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -363,16 +364,6 @@ a:hover {
 .section-bg-img {
     height: 600px;
 
-    background: url('/assets/images/bgnew.png') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    background-attachment: scroll;
 }
 
 .page-footer {
