@@ -363,7 +363,7 @@ a:hover {
 .section-bg-img {
     height: 600px;
 
-    background: url('/assets/images/bgnew.jpg') no-repeat center center fixed;
+    background: url('/assets/images/bgnew.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
