@@ -388,10 +388,6 @@ a:hover {
 
 }
 
-.gallery-container {
-    width: 70%;
-    margin: auto;
-}
 
 .padding-top-small {
     padding-top: 10px;
@@ -451,6 +447,11 @@ a:hover {
 
     }
     
+    .gallery-container {
+    width: 70%;
+    margin: auto;
+}
+
     
     .page-footer {
     height: 155px;
