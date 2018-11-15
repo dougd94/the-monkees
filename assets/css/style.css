@@ -293,6 +293,10 @@ a:hover {
 
 /* Gallery */
 
+.gallery-container {
+    width: 100%;
+    margin: auto;
+}
 .gallery-image {
     width: 100%;
 }
@@ -382,6 +386,11 @@ a:hover {
     /*position: relative;
    left: 25%;*/
 
+}
+
+.gallery-container {
+    width: 70%;
+    margin: auto;
 }
 
 .padding-top-small {
