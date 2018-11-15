@@ -291,6 +291,20 @@ a:hover {
     }
 }
 
+/* Gallery */
+
+.gallery-image {
+    width: 100%;
+}
+
+
+.gallery-padding {
+    padding-top: 20px;
+}
+
+.gallery-padding-tablet {
+    padding-top: 5px;
+}
 
 /*media queries*/
 
@@ -411,7 +425,9 @@ a:hover {
     display: block;
 }
 
-
+.gallery-padding-tablet {
+    padding-top: 20px;
+}
 
 }
 
