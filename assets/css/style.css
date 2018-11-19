@@ -16,6 +16,7 @@ a:hover {
 #container {
    min-height:100%;
    position:relative;
+   height: 100%;
 }
 
 
