@@ -79,3 +79,4 @@ The Text for the 'Footer' was copied off the following page.
 <a href="https://www.biography.com/people/groups/the-monkees">Biography - The Monkees</a>
 
 Images were downloaded off of google images.
+Music and Video were taken off the code institute repository for this project.
