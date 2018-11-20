@@ -316,8 +316,10 @@ a:hover {
 .gallery-container {
     width: 100%;
     margin: auto;
+    position: relative;
     
 }
+
 .gallery-image {
     width: 100%;
 }
