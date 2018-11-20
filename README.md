@@ -2,6 +2,8 @@
 
 This is a band website for the Monkees, 
 It imagines that they are still active and available for bookings.
+I wanted to make the site as simple as possible, whilst also fulfiling all the use cases I could think of for a
+band site.
 
 <H2>UX</h2>
 <il>
@@ -10,8 +12,11 @@ so the latest release and next events are placed here.</li>
 
 <li>As a user, I wanted to be able to book the band easily online, I achieved this by creating a simple responsive booking form.</li>
 
-<li>As a user, </li>
+<li>As a user, I wanted to be able to find out information about each band member and the band as a whole. </li>
 </ul>
+
+<a href="https://imgur.com/a/h6mHsmc">Original Balsamiq Mockup</a>
+
 
 <h2> Features </h2>
 <ul>
@@ -28,8 +33,8 @@ so the latest release and next events are placed here.</li>
 </li>
 <li>Css</li>
 <li>Javascript and JQuery
-<ul><li>the bootstrap javascript library was used to make the header responsive</li>
-<li>JQuery was used for fancybox in the gallery</li></ul></li>
+<ul><li>the bootstrap javascript library was used to make the header responsive.</li>
+<li>JQuery was used for fancybox in the gallery.</li></ul></li>
 </ul>
 
 <h2>Testing</h2>
@@ -37,19 +42,18 @@ so the latest release and next events are placed here.</li>
 <li>Footer:
 <ol><li>Go to the Any page</li>
 <li>Check in developer tools to see that the footer is sticking to the bottom.</li>
-<li>Check to see that the footer content fits in all screen sizes and that media queries work</li></ol></li>
+<li>Check to see that the footer content fits in all screen sizes and that media queries work.</li></ol></li>
 I had a problem with the footer running up the page on "Booking" and "Gallery" This was fixed with giving the body a 
 bottom padding equal to the footer size.
-</ol>
 
-<ol>
+
 <li>Media Queries:
 <ol><li>Go to the Any page</li>
 <li>Check in developer tools that all the relevant media queries are activating.</li>
 <li>Check that site looks good on all common screen sizes.</li></ol></li>
-</ol>
 
-<ol>
+
+
 <li>Booking form:
 <ol><li>Go to the "Booking" page</li>
 <li>Try to submit an empty form and see that an error message stating that there are required fields.</li>
