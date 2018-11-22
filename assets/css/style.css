@@ -148,6 +148,10 @@ a:hover {
 }
 .container-book-now {
     background-color: rgba(255, 255, 255, 0.90);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     
 }
 .home-items {
@@ -507,7 +511,9 @@ a:hover {
     margin: auto;
 }
 
-    
+    .book-now-heading{
+        font-size: 30px;
+    }
     .page-footer {
     height: 155px;
 }
