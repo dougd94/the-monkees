@@ -52,8 +52,11 @@
   </header>
   <div id="body">
     <div class="row">
+      <div class="col-12">
+      <h1 class="heading-text text-center gallery-padding">Bookings</h1>
+      </div>
       <div class="col-12 text-center booking-heading d-none d-lg-block">
-        <h1>Now accepting bookings for any event!</h1>
+        <h2>Now accepting bookings for any event!</h2>
       </div>
     </div>
     <section class="container-fluid section-bg-img-other ">
@@ -65,7 +68,7 @@
           </div>
           <div class="form-group">
             <label for="tel">Phone:</label>
-            <input type="text" class="form-control" id="tel" value="+353-111-1111" required>
+            <input type="text" class="form-control" id="tel" placeholder="+353-111-1111" required>
           </div>
           <div class="form-group">
             <label for="emailaddress">Email address:</label>
@@ -81,7 +84,7 @@
             </select>
           </div>
           <div class="form-group">
-            <label for="typeofevent">Number of Guests:</label>
+            <label for="typeofevent">Expected Number of Guests:</label>
             <select class="form-control" id="guests">
             <option>Under 100</option>
             <option>100-200</option>
@@ -95,7 +98,7 @@
             placeholder="Optional"></textarea>
           </div>
           <div class="text-center">
-            <button type="submit" class="btn btn-success">Submit</button>
+            <button type="submit" class="btn btn-danger">Submit</button>
           </div>
         </form>
       </div>

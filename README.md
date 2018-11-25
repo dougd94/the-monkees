@@ -7,12 +7,13 @@ band site.
 
 <H2>UX</h2>
 <il>
-<li>As a user, I wanted the most common reasons for vising the site to be on the home page, 
-so the latest release and next events are placed here.</li>
+<li>As a user, I want to see a lot of information about the band on the homepage.</li>
 
-<li>As a user, I wanted to be able to book the band easily online, I achieved this by creating a simple responsive booking form.</li>
+<li>As a user, I should be able to book the band easily.</li>
 
-<li>As a user, I wanted to be able to find out information about each band member and the band as a whole. </li>
+<li>As a user, I want to be able to find out information about each band member and the band as a whole. </li>
+
+<li>As a User, I want to listen to the bands music and watch music videos.</li>
 </ul>
 
 <a href="https://imgur.com/a/h6mHsmc">Original Balsamiq Mockup</a>
@@ -32,12 +33,13 @@ so the latest release and next events are placed here.</li>
 <li>Html 5
 </li>
 <li>Css</li>
-<li>Javascript and JQuery
-<ul><li>the bootstrap javascript library was used to make the header responsive.</li>
-<li>JQuery was used for fancybox in the gallery.</li></ul></li>
+<li>Bootstrap and Fancybox
+<ul><li>These libraries use JQuery and Javascript.</li>
+</ul></li>
 </ul>
 
 <h2>Testing</h2>
+I have tested this website across different browsers and multiple mobile devices.
 <ol>
 <li>Footer:
 <ol><li>Go to the Any page</li>
@@ -61,10 +63,9 @@ bottom padding equal to the footer size.
 </ol>
 
 <h2>Deployment</h2>
-I pushed it to github constantly to make sure I didn't lose any code.
-Towards the end of the project I published to github pages, 
-to check to make sure it worked properly - during this process I found out the images didn't work and had to add a 
-'./' to the file path make images and videos work.
+Site was created in the cloud9 IDE. Then it was published to github pages.
+<a href="https://dougd94.github.io/the-monkees/index.html">Link to Github Pages</a> 
+
 
 <h2>Credits</h2>
 Content
