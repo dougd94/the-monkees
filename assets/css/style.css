@@ -125,7 +125,7 @@ a:hover {
 .book-now {
     width: 100%;
     height: 300px;
-    background: url('/assets/images/bgnew.png') no-repeat top center fixed;
+    background: url('../images/bgnew.png') no-repeat top center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
