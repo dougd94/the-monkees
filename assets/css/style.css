@@ -586,7 +586,7 @@ a:hover {
 
 @media only screen and (min-height: 1366px) {
     body {
-    min-height: calc(100vh - 90px);
+    min-height: calc(100vh - 95px);
     
     }
     
