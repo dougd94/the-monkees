@@ -72,7 +72,9 @@ a:hover {
 }
 
 
-
+.footer-center {
+        transform: translateY(50%);
+    }
 
 .footer-items {
 
@@ -287,6 +289,7 @@ a:hover {
 .the-band-margin {
     margin-top: 30px;
     margin-bottom: 20px;
+    
 }
 
 .the-band-images-big {
@@ -401,6 +404,11 @@ a:hover {
         
 
     }
+    
+     .footer-center {
+        transform: translateY(0%);
+    }
+    
     .home-text {
         font-size: 40px;
     }
@@ -526,7 +534,7 @@ a:hover {
     
     .the-band-margin {
     margin-top: 50px;
-    
+    padding-bottom: 50px;
     }
     .section-bg-img {
     height: 700px;
@@ -582,6 +590,8 @@ a:hover {
     
     }
     
+   
+ 
  
 }
 
