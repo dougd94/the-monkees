@@ -546,6 +546,11 @@ a:hover {
     .book-now-heading{
         font-size: 30px;
     }
+    
+    .book-now {
+        height: 600px;
+        width: 100%;
+    }
     .page-footer {
     height: 155px;
 }
