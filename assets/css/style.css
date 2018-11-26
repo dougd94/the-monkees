@@ -582,9 +582,7 @@ a:hover {
     
     }
     
-    #body-booking {
-        min-height: calc(100vh - 75px);
-    }
+ 
 }
 
 @media only screen and (min-width: 2560px) {
