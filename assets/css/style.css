@@ -6,6 +6,7 @@ body {
     background-color: #5e646b;
     overflow-x: hidden;
     padding:0px;
+    margin: 0;
     padding-bottom:70px;
 }
 
@@ -20,8 +21,12 @@ a:hover {
    min-height:100%;
    position:relative;
    height: 100%;
+  /* min-height: calc(100% - 134px);*/
+  
    
 }
+
+
 
 
 
@@ -30,7 +35,7 @@ a:hover {
     bottom:0;
     width:100%;
     height:70px;
-    margin-top: -70px;
+   /* margin-top: -70px;*/
 }
 
 
@@ -80,9 +85,6 @@ a:hover {
 }
 
 
-   .footer-center {
-        transform: translateY(50%);
-    }
 
 
 
@@ -340,6 +342,7 @@ a:hover {
 
 .form-container {
     margin: 30px 0;
+    
     height: 85%;
     width: 100%;
     -webkit-box-shadow: 10px 10px 53px 0px rgba(0, 0, 0, 0.41);
@@ -397,12 +400,9 @@ a:hover {
 
 @media only screen and (min-width: 768px) {
       .form-container {
-
-        margin: 30px 0;
+        
         width: 70%;
-        -webkit-box-shadow: 10px 10px 53px 0px rgba(0, 0, 0, 0.41);
-        -moz-box-shadow: 10px 10px 53px 0px rgba(0, 0, 0, 0.41);
-        box-shadow: 10px 10px 53px 0px rgba(0, 0, 0, 0.41);
+        
 
     }
     .home-text {
@@ -549,7 +549,6 @@ a:hover {
     
     .book-now {
         height: 600px;
-        width: 100%;
     }
     .page-footer {
     height: 155px;
@@ -581,6 +580,11 @@ a:hover {
 
 }
 
+@media only screen and (min-height: 1366px) {
+    body {
+    min-height: calc(100vh - 95px);
+    }
+}
 
 @media only screen and (min-width: 2560px) {
     .music-audio {
