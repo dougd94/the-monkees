@@ -40,6 +40,8 @@ band site.
 
 <h2>Testing</h2>
 I have tested this website across different browsers and multiple mobile devices.
+I gave the Github pages link to multiple people and had them go through the site to see if the UX and to check if there was any 
+errors.
 <ol>
 <li>Footer:
 <ol><li>Go to the Any page</li>
