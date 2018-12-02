@@ -48,7 +48,9 @@ errors.
 <li>Check in developer tools to see that the footer is sticking to the bottom.</li>
 <li>Check to see that the footer content fits in all screen sizes and that media queries work.</li></ol></li>
 I had a problem with the footer running up the page on "Booking" and "Gallery" This was fixed with giving the body a 
-bottom padding equal to the footer size.
+bottom padding equal to the footer size - this fix worked temporarily, and not perfectly on each size.
+In order to fix it more fully I used Calc() to give each page 100%vh - footer, 
+this worked more better, especially on Ipad pro which was the hardest size to fix.
 
 
 <li>Media Queries:
@@ -63,6 +65,8 @@ bottom padding equal to the footer size.
 <li>Try to submit an empty form and see that an error message stating that there are required fields.</li>
 <li>Try to submit the form with an invalid email address see that an error message appears.</li></ol></li>
 </ol>
+
+
 
 <h2>Deployment</h2>
 Site was created in the cloud9 IDE. Then it was published to github pages.

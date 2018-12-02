@@ -10,9 +10,8 @@ body {
 
 }
 
-/*fixes footer on the-band specifically*/
 
-#the-band-body {
+#the-band-body { /*fixes footer on the-band specifically*/
     padding-bottom: 0px;
 }
 
@@ -89,7 +88,7 @@ a:hover {
     font-size: 9px;
 }
 
-.mobile-hide-footer {
+.mobile-hide-footer { /*hides one column on small size*/
     display: none;
 }
 
@@ -328,7 +327,7 @@ a:hover {
     width: 50%;
 }
 
-.red {
+.red { /* simple hr */
 
     border: 1px solid red;
 }
@@ -349,7 +348,6 @@ a:hover {
 
 .form-container {
     margin: 30px 0;
-
     height: 85%;
     width: 100%;
     -webkit-box-shadow: 10px 10px 53px 0px rgba(0, 0, 0, 0.41);
